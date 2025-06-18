@@ -4,7 +4,7 @@
 
 # The address you will actually visit while testing
   url: "https://laoshen22.github.io"
-  baseurl: "/Mirages"            # leading slash, NO trailing slash
+  baseurl: "/mirages"            # leading slash, NO trailing slash
 
   logo: "/assets/images/logo.png"
 
