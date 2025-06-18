@@ -1,17 +1,23 @@
 # --- Basic site meta ---
 title: "Mirages International Inc."
 description: "Global e-commerce logistics & customs solutions"
-url: "https://mi-exp.com"   # change if using a custom domain
+
+# The address you will actually visit while testing
+url: "https://laoshen22.github.io"
+baseurl: "/Mirages"            # leading slash, NO trailing slash
+
 logo: "/assets/images/logo.png"
 
 # --- YAT theme hookup ---
-remote_theme: "jeffreytse/jekyll-theme-yat"   # :contentReference[oaicite:0]{index=0}
-plugins:             # these are all whitelisted on GitHub Pages
+remote_theme: "jeffreytse/jekyll-theme-yat"
+
+plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-remote-theme
 
-# --- Navigation (will grow in Step 4) ---
+# --- Navigation ---
 nav:
   - name: Home
     link: /
