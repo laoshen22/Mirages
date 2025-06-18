@@ -10,7 +10,6 @@ plugins:             # these are all whitelisted on GitHub Pages
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-remote-theme
 
 # --- Navigation (will grow in Step 4) ---
 nav:
